@@ -1,0 +1,28 @@
+Syllabus: Introduction to Python
+1. Introduction to Python
+Definition, characteristics, importance, and areas of use.
+2. History and Evolution of Python
+Creator, year of development, naming, Python Software Foundation.
+3. Features of Python
+Simple syntax, high-level, interpreted, object-oriented, portable, open source.
+4. Programming Paradigms
+Procedural, Object-Oriented, and Functional programming.
+5. Python Interpreter and Execution
+Role of interpreter, interactive mode, script mode.
+6. Python Variables
+Concept of variables, dynamic typing, naming rules.
+7. Python Data Types
+Numeric, Boolean, String, List, Tuple, Set, Dictionary.
+8. Python Keywords
+Definition and commonly used keywords.
+9. Python Libraries and Ecosystem
+NumPy, Pandas, Matplotlib, OpenCV, TensorFlow, PyTorch.
+10. Applications of Python
+Web development, Data Science, AI/ML, Computer Vision, Automation.
+11. Advantages of Python
+Ease of learning, large community, rapid development.
+12. Limitations of Python
+Slower execution, GIL, not suitable for low-level programming.
+13. Summary and Future Scope
+Role of Python in modern technologies.
+

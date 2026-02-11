@@ -1,0 +1,49 @@
+Introduction to Python
+What is Python?
+Python is a high-level, interpreted, general-purpose programming language known for its simplicity
+and readability. It is widely used in academics, research, and industry.
+History of Python
+Python was created by Guido van Rossum and released in 1991. It is maintained by the Python
+Software Foundation.
+Features of Python
+ Simple and easy to learn
+ Interpreted language
+ High-level language
+ Object-oriented
+ Portable
+ Free and open source
+Programming Paradigms
+ Procedural Programming
+ Object-Oriented Programming
+ Functional Programming
+Applications of Python
+ Web development
+ Data Science
+ Machine Learning & AI
+ Computer Vision
+ Automation and scripting
+ Scientific computing
+Python Interpreter
+Python code is executed line by line using the Python interpreter. Programs can be run in
+interactive or script mode.
+Variables and Data Types
+Python is dynamically typed. Common data types include int, float, string, list, tuple, set, and
+dictionary.
+Python Keywords
+Keywords are reserved words such as if, else, for, while, def, class, and import.
+Python Libraries
+Popular libraries include NumPy, Pandas, Matplotlib, OpenCV, TensorFlow, and PyTorch.
+Advantages of Python
+ Easy to learn
+ Large community support
+ Rapid development
+ Extensive libraries
+Limitations of Python
+ Slower execution speed
+ Not suitable for low-level programming
+ GIL limits multi-threading
+
+Summary
+Python is a versatile and beginner-friendly language used in modern technologies such as AI, ML,
+and Data Science.
+

@@ -1,0 +1,111 @@
+Convolutional Neural Network (CNN) 
+Introduction to Convolutional Neural Networks (CNNs) 
+A Convolutional Neural Network (CNN) is a specialized class of deep neural networks primarily designed to 
+process grid-like data, such as images (2D grids of pixels), videos (3D: height × width × time), and even audio 
+spectrograms. CNNs are the backbone of most modern computer vision systems. 
+They automatically learn spatial features (edges, textures, shapes, objects) from raw input data with minimal 
+manual feature engineering. 
+Why CNNs are Needed 
+Traditional fully connected neural networks (ANNs) face major issues when dealing with images: 
+1. High dimensionality 
+o A 224×224 RGB image has 150,528 input features 
+o Fully connected layers lead to millions of parameters 
+2. Loss of spatial information 
+o ANNs flatten images → spatial relationships are lost 
+3. Overfitting & computation cost 
+CNNs solve these problems by: 
+• Local connectivity 
+• Weight sharing 
+• Hierarchical feature learning 
+Biological Inspiration 
+CNNs are inspired by the visual cortex of the human brain: 
+• Neurons respond to local regions of the visual field 
+• Simple cells detect edges 
+• Complex cells detect shapes and objects 
+ 
+Core Idea of CNN 
+CNNs use convolution operations to: 
+• Detect local patterns 
+• Preserve spatial structure 
+• Learn features automatically 
+Instead of learning all pixel relationships, CNNs focus on local receptive fields. 
+Basic Architecture of CNN 
+A typical CNN consists of the following layers: 
+Input → Convolution → Activation → Pooling → (Repeat) → Fully Connected → Output 
+ 
+2. Convolution Layer (Core of CNN) 
+What is Convolution? 
+A mathematical operation where a filter (kernel) slides over the image to produce a feature map. 
+Kernel / Filter 
+• Small matrix (e.g., 3×3, 5×5) 
+• Learns to detect features such as: 
+o Edges 
+o Corners 
+o Textures 
+Operation 
+Each output pixel is: 
+Output = Sum(Input × Kernel) + Bias 
+Parameters 
+• Stride (S): step size of filter movement 
+• Padding (P): adding zeros around input to preserve size 
+o Valid padding → no padding 
+o Same padding → output size = input size 
+Output Size Formula 
+Output = (N − F + 2P) / S + 1 
+Where: 
+• N = input size 
+• F = filter size 
+4. Pooling Layer (Downsampling) 
+Purpose 
+• Reduce spatial dimensions 
+• Reduce computation 
+• Provide translation invariance 
+Types 
+1. Max Pooling (most common) 
+2. Average Pooling 
+3. Global Average Pooling 
+Example: 
+2×2 Max Pooling → picks maximum value 
+Training a CNN 
+Loss Functions 
+• Categorical Cross-Entropy 
+• Binary Cross-Entropy 
+• MSE (for regression) 
+Optimization Algorithms 
+• SGD 
+• Adam 
+• RMSProp 
+Backpropagation 
+• Gradients are computed 
+• Filters are updated automatically 
+Key Advantages of CNN 
+1. Automatic feature extraction 
+2. Fewer parameters (weight sharing) 
+3. Spatial invariance 
+4. High accuracy for vision tasks 
+ 
+Limitations of CNN 
+1. Requires large datasets 
+2. Computationally expensive 
+3. Poor rotation & scale invariance (without augmentation) 
+4. Hard to interpret 
+Applications of CNN 
+• Image classification (ImageNet) 
+• Face recognition 
+• Object detection (YOLO, Faster R-CNN) 
+• Medical imaging 
+• Autonomous vehicles 
+• OCR & handwriting recognition 
+• Video analysis 
+ 
+Popular CNN Architectures 
+• LeNet-5 
+• AlexNet 
+• VGGNet 
+• GoogLeNet (Inception) 
+• ResNet 
+• MobileNet 
+• EfficientNet 
+ 
+ 
+ 

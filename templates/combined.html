@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login - Online Exam System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Portal</h1>
+        <div class="status-badge status-active">Active Exam: {{ active_exam.subject }}</div>
+        
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="prn">Enter your PRN Number</label>
+                <input type="text" id="prn" name="prn" placeholder="e.g. 21070123000" required>
+            </div>
+            <button type="submit">Start Examination</button>
+        </form>
+    </div>
+</body>
+</html>
+<!-- slide -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waiting for Exam - Online Exam System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta http-equiv="refresh" content="5">
+</head>
+<body>
+    <div class="container">
+        <h1>Examination System</h1>
+        <p style="text-align: center; color: var(--text-muted);">There are no active exams at the moment.</p>
+        <p style="text-align: center; margin-top: 10px;">Please wait for the examiner to publish an exam. This page will auto-refresh.</p>
+    </div>
+</body>
+</html>
+<!-- slide -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examination - Online Exam System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="prn-display">Student PRN: {{ prn }}</div>
+        <h1>Dynamic Question Paper</h1>
+        
+        <div class="meta-info">
+            <span><strong>Subject:</strong> {{ question_data.subject }}</span>
+            <span><strong>Topic:</strong> {{ question_data.topic }}</span>
+            <span><strong>Difficulty:</strong> {{ question_data.difficulty | capitalize }}</span>
+        </div>
+
+        <div class="question-card">
+            <div style="font-size: 1.1rem; line-height: 1.6; white-space: pre-wrap;">{{ question_data.question }}</div>
+        </div>
+
+        <div style="margin-top: 30px; display: flex; gap: 10px;">
+            <button onclick="window.print()">Print Question</button>
+            <button class="accent" onclick="location.reload()">Regenerate Question</button>
+        </div>
+        
+        <div style="margin-top: 20px; text-align: center;">
+            <a href="/logout" style="color: var(--text-muted); font-size: 0.9rem;">Submit & Logout</a>
+        </div>
+    </div>
+</body>
+</html>

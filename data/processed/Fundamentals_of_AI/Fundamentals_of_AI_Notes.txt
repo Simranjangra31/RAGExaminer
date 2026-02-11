@@ -1,0 +1,39 @@
+Fundamentals of Artificial Intelligence (AI)
+Introduction to Artificial Intelligence
+Artificial Intelligence (AI) is a branch of computer science that focuses on creating intelligent
+machines capable of performing tasks that require human intelligence such as learning, reasoning,
+problem-solving, perception, and decision-making.
+Definitions of AI
+John McCarthy defined AI as the science and engineering of making intelligent machines. Russell
+and Norvig define AI as the study of intelligent agents.
+Goals of AI
+Learning from data, reasoning, problem solving, knowledge representation, natural language
+understanding, perception, and autonomous decision-making.
+Types of Artificial Intelligence
+Narrow AI (task-specific), General AI (human-level intelligence), and Super AI (beyond human
+intelligence).
+Core Components of AI
+Data, algorithms, and models form the foundation of AI systems.
+Fundamental Areas of AI
+Machine Learning, Knowledge Representation, Reasoning and Inference, Search and Problem
+Solving, Natural Language Processing, Computer Vision, and Robotics.
+Machine Learning
+Machine learning enables systems to learn from data without explicit programming. Types include
+supervised, unsupervised, and reinforcement learning.
+AI Agents
+An AI agent perceives its environment through sensors and acts upon it using actuators. Types
+include simple reflex, model-based, goal-based, utility-based, and learning agents.
+AI vs ML vs Deep Learning
+AI is the broad field, ML is a subset of AI, and Deep Learning is a subset of ML based on neural
+networks.
+Applications of AI
+Healthcare, finance, education, transportation, manufacturing, and customer support.
+Advantages of AI
+High accuracy, automation, faster decision-making, and continuous availability.
+Limitations of AI
+High cost, data dependency, lack of creativity, ethical and privacy issues.
+Ethical and Responsible AI
+Fairness, transparency, explainability, privacy, and accountability are critical considerations.
+Future Scope of AI
+Explainable AI, Edge AI, human-AI collaboration, and responsible AI development.
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Examination System - Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="home-container">
+        <h1 class="hero-title">Online Examination System</h1>
+        <p class="hero-subtitle">Select your portal to continue</p>
+
+        <div class="portal-grid">
+            <!-- Examiner Card -->
+            <a href="{{ url_for('examiner_dashboard') }}" class="portal-card examiner-card">
+                <div class="portal-icon">👨‍🏫</div>
+                <h2>Examiner Portal</h2>
+                <p>Create exams, manage topics, and publish question papers.</p>
+                <span class="portal-link">Enter Dashboard →</span>
+            </a>
+
+            <!-- Student Card -->
+            <div class="portal-card student-card">
+                <div class="portal-icon">🎓</div>
+                <h2>Student Section</h2>
+                {% if active_exam.is_active %}
+                <p>An exam on <strong>{{ active_exam.subject }}</strong> is live. Enter your PRN to begin.</p>
+                <form action="/login" method="POST" class="home-login-form">
+                    <input type="text" name="prn" placeholder="Enter PRN Number" required>
+                    <button type="submit" class="btn-primary">Start Examination</button>
+                </form>
+                {% else %}
+                <p>No active exams at the moment. Please wait for the examiner to publish an exam.</p>
+                <div class="status-badge status-inactive">Waiting for Exam...</div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

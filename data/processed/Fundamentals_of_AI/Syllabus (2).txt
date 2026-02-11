@@ -1,0 +1,40 @@
+Syllabus: Fundamentals of Artificial Intelligence
+ (AI)
+1. Introduction to Artificial Intelligence
+Definition, concept, scope, importance, and evolution of AI.
+2. Definitions and Perspectives of AI
+John McCarthy’s definition, Russell and Norvig’s definition, AI as intelligent agents.
+3. Goals and Objectives of AI
+Learning, reasoning, problem solving, knowledge representation, perception, decision-making, and
+NLP.
+4. Types of Artificial Intelligence
+Narrow AI, General AI, and Super AI.
+5. Core Components of AI Systems
+Data, algorithms, and models.
+6. Fundamental Areas of Artificial Intelligence
+Machine Learning, Knowledge Representation, Reasoning and Inference, Search, NLP, Computer
+Vision, Robotics.
+7. Machine Learning in AI
+Supervised, unsupervised, and reinforcement learning.
+8. Search and Problem Solving
+State space representation and search strategies.
+9. Knowledge Representation and Reasoning
+Logical reasoning and inference mechanisms.
+10. Artificial Intelligence Agents
+Concept of agents, agent–environment interaction, types of agents.
+11. AI vs Machine Learning vs Deep Learning
+Relationship and differences.
+12. Applications of Artificial Intelligence
+Healthcare, finance, education, transportation, manufacturing, customer support.
+13. Advantages of Artificial Intelligence
+Automation, accuracy, efficiency, and availability.
+14. Limitations of Artificial Intelligence
+Cost, data dependency, lack of creativity, ethical concerns.
+15. Ethical and Responsible AI
+Bias, fairness, transparency, privacy, and accountability.
+16. Future Scope of Artificial Intelligence
+Explainable AI, Edge AI, human–AI collaboration, responsible AI.
+
+17. Summary
+Role, potential, and challenges of AI.
+

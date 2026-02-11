@@ -1,0 +1,302 @@
+50 MCQs: Introduction to Python
+1. Python is a:
+a) Low-level language
+b) High-level language
+c) Assembly language
+d) Machine language
+Answer: b
+2. Python was created by:
+a) Dennis Ritchie
+b) James Gosling
+c) Guido van Rossum
+d) Bjarne Stroustrup
+Answer: c
+3. Python was first released in:
+a) 1985
+b) 1991
+c) 1995
+d) 2000
+Answer: b
+4. Python is maintained by:
+a) Google
+b) Microsoft
+c) Python Software Foundation
+d) Oracle
+Answer: c
+5. Python is an:
+a) Compiled language
+b) Interpreted language
+c) Assembly language
+d) Markup language
+Answer: b
+6. Which of the following is a feature of Python?
+a) Complex syntax
+b) Platform dependent
+c) Easy readability
+d) Manual memory management
+Answer: c
+7. Python follows which programming paradigm?
+a) Procedural only
+b) Object-Oriented only
+c) Functional only
+d) Multiple paradigms
+Answer: d
+8. Python code is executed by:
+a) Compiler
+b) Assembler
+c) Interpreter
+d) Linker
+Answer: c
+9. Which symbol is used to print output in Python?
+a) echo
+b) printf
+c) print
+d) cout
+Answer: c
+10. Python variables are:
+a) Statically typed
+b) Dynamically typed
+c) Constant
+d) Declared with datatype
+Answer: b
+11. Which of the following is NOT a Python data type?
+a) int
+b) float
+c) char
+d) list
+Answer: c
+12. Which data type stores multiple values in ordered form?
+a) Set
+b) Dictionary
+c) List
+d) Boolean
+Answer: c
+13. Which data type is immutable?
+a) List
+b) Tuple
+c) Set
+d) Dictionary
+Answer: b
+14. Which data type stores keyvalue pairs?
+a) List
+b) Tuple
+c) Set
+d) Dictionary
+Answer: d
+15. Python keywords are:
+a) User-defined words
+b) Reserved words
+c) Variable names
+d) Comments
+Answer: b
+16. Which is a valid Python keyword?
+a) loop
+b) define
+c) class
+d) repeat
+Answer: c
+17. Which keyword is used to define a function?
+a) function
+b) def
+c) fun
+d) define
+Answer: b
+18. Which keyword is used for conditional branching?
+a) when
+b) if
+c) check
+d) switch
+Answer: b
+19. Python supports Object-Oriented Programming using:
+a) Methods only
+b) Functions only
+c) Classes and objects
+d) Modules only
+Answer: c
+20. Python is portable because:
+a) It uses binary code
+b) It is platform independent
+c) It is hardware dependent
+d) It uses machine language
+Answer: b
+21. Python is free and open source means:
+a) Paid license required
+b) Can be modified and distributed
+c) Only for academic use
+d) Closed source
+Answer: b
+22. Which of the following is a Python library?
+a) NumPy
+b) Angular
+c) React
+d) Bootstrap
+Answer: a
+23. Pandas library is mainly used for:
+a) Web development
+b) Data analysis
+c) Game development
+d) Networking
+Answer: b
+24. Matplotlib is used for:
+a) Machine learning
+b) Web frameworks
+c) Data visualization
+d) Automation
+Answer: c
+25. OpenCV in Python is used for:
+a) Database handling
+b) Computer vision
+c) Web design
+d) Networking
+Answer: b
+26. TensorFlow and PyTorch are used for:
+a) Operating systems
+b) Web hosting
+c) Deep learning
+d) Text editing
+Answer: c
+27. Which mode allows Python commands to be executed line by line?
+a) Script mode
+b) Batch mode
+c) Interactive mode
+d) Compile mode
+Answer: c
+28. Python files are saved with extension:
+a) .java
+b) .cpp
+c) .py
+d) .txt
+Answer: c
+29. Python automatically manages:
+a) Files
+b) Memory
+c) CPU
+d) Threads
+Answer: b
+30. Python is best suited for:
+a) Low-level programming
+b) System drivers
+c) Rapid application development
+d) Assembly programming
+Answer: c
+31. Which of the following is an application of Python?
+a) Web development
+b) Data science
+c) Machine learning
+d) All of the above
+Answer: d
+32. Python is widely used in AI because of:
+a) Complex syntax
+b) Limited libraries
+c) Rich ecosystem
+d) Hardware dependency
+Answer: c
+33. Which one is NOT an advantage of Python?
+a) Easy syntax
+b) Large community
+c) Slow execution speed
+d) Rapid development
+Answer: c
+34. One limitation of Python is:
+a) Difficult syntax
+b) Lack of libraries
+c) Slower execution speed
+d) No community support
+Answer: c
+35. GIL in Python affects:
+a) File handling
+b) Memory allocation
+c) Multi-threading
+d) Input/output
+Answer: c
+36. Python is NOT ideal for:
+a) Web development
+b) AI applications
+c) System-level programming
+d) Data analysis
+Answer: c
+37. Which of the following is a numeric data type?
+a) str
+b) list
+c) int
+d) dict
+Answer: c
+38. Boolean data type has values:
+a) 0 and 1
+b) Yes and No
+c) True and False
+d) On and Off
+Answer: c
+39. Python supports code reusability through:
+a) Variables
+b) Loops
+c) Functions and classes
+d) Comments
+Answer: c
+40. Which keyword is used to import modules?
+a) include
+b) using
+c) import
+d) require
+Answer: c
+41. Python is popular among beginners because:
+a) It is complex
+b) It is hardware dependent
+c) It has simple syntax
+d) It requires compilation
+Answer: c
+42. Which organization manages Python development?
+a) IEEE
+b) W3C
+c) Python Software Foundation
+d) ISO
+Answer: c
+43. Python supports automation mainly through:
+a) Manual coding
+b) Scripting
+c) Compilation
+d) Assembly code
+Answer: b
+44. Which of the following is an immutable data type?
+a) List
+b) Set
+c) Tuple
+d) Dictionary
+Answer: c
+45. Which of the following can store unique values?
+a) List
+b) Tuple
+c) Set
+d) String
+Answer: c
+46. Python allows:
+a) Only procedural programming
+b) Only OOP
+c) Only functional programming
+d) Multiple programming styles
+Answer: d
+47. Python code readability is improved by:
+a) Curly braces
+b) Semicolons
+c) Indentation
+d) Pointers
+Answer: c
+48. Python is used in data science because it:
+a) Has no libraries
+b) Is slow
+c) Has powerful libraries
+d) Is hardware specific
+Answer: c
+49. Which of the following is a correct Python statement?
+a) int x = 10
+b) x = 10
+c) declare x = 10
+d) x := 10
+Answer: b
+50. Python is best described as:
+a) Low-level compiled language
+b) High-level interpreted language
+c) Assembly-based language
+d) Machine-level language
+Answer: b
+

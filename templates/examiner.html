@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examiner Dashboard - Online Exam System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Examiner Dashboard</h1>
+
+
+        <div id="status">
+            {% if active_exam.is_active %}
+            <span class="status-badge status-active">Exam Live: {{ active_exam.subject }} - {{ active_exam.topics |
+                length }} Topics Selected</span>
+            {% else %}
+            <span class="status-badge status-inactive">No Active Exam</span>
+            {% endif %}
+        </div>
+
+        <div class="form-group">
+            <label for="subject">Select Subject</label>
+            <select id="subject" onchange="updateTopics()">
+                <option value="">-- Choose Subject --</option>
+                {% for sub in subjects %}
+                <option value="{{ sub }}" {% if active_exam.subject==sub %}selected{% endif %}>{{ sub }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="topic">Select Topics</label>
+            <div id="topic-container" class="checkbox-group">
+                <p style="color: var(--text-muted); font-size: 0.9rem; padding: 10px;">-- Choose Subject First --</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="difficulty">Select Difficulty</label>
+            <select id="difficulty">
+                <option value="easy" {% if active_exam.difficulty=='easy' %}selected{% endif %}>Easy</option>
+                <option value="medium" {% if active_exam.difficulty=='medium' %}selected{% endif %}>Medium</option>
+                <option value="hard" {% if active_exam.difficulty=='hard' %}selected{% endif %}>Hard</option>
+            </select>
+        </div>
+
+        <button class="accent" onclick="setExam()">Publish Exam for Students</button>
+    </div>
+
+    <script>
+        // Note: active_exam.topics is available as a Jinja2 variable if needed, but for now we just load fresh.
+        // We'll let the examiner re-select if they reload.
+
+        async function updateTopics() {
+            const subject = document.getElementById('subject').value;
+            const topicContainer = document.getElementById('topic-container');
+
+            if (!subject) {
+                topicContainer.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem; padding: 10px;">-- Choose Subject First --</p>';
+                return;
+            }
+
+            topicContainer.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem; padding: 10px;">Loading topics...</p>';
+
+            const response = await fetch(`/api/topics/${subject}`);
+            const topics = await response.json();
+
+            topicContainer.innerHTML = '';
+            if (topics.length === 0) {
+                topicContainer.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem; padding: 10px;">No topics found for this subject.</p>';
+                return;
+            }
+
+            topics.forEach((t, index) => {
+                const item = document.createElement('div');
+                item.className = 'checkbox-item';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.id = `topic-${index}`;
+                checkbox.value = t;
+                checkbox.name = 'topic-checkbox';
+
+                const label = document.createElement('label');
+                label.htmlFor = `topic-${index}`;
+                label.textContent = t;
+
+                item.appendChild(checkbox);
+                item.appendChild(label);
+                topicContainer.appendChild(item);
+            });
+        }
+
+        async function setExam() {
+            const subject = document.getElementById('subject').value;
+            const difficulty = document.getElementById('difficulty').value;
+
+            // Get all checked checkboxes
+            const checkedCheckboxes = document.querySelectorAll('input[name="topic-checkbox"]:checked');
+            const selectedTopics = Array.from(checkedCheckboxes).map(cb => cb.value);
+
+            if (!subject || selectedTopics.length === 0) {
+                alert("Please select subject and at least one topic");
+                return;
+            }
+
+            const response = await fetch('/api/set_exam', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ subject, topics: selectedTopics, difficulty })
+            });
+
+            if (response.ok) {
+                alert("Exam set successfully! Students can now login.");
+                location.reload();
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login - Online Exam System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Portal</h1>
+        <!-- <div class="status-badge status-active">Active Exam: {{ active_exam.subject }}</div> -->
+
+        <form action="/login" method="POST">
+            <div class="form-group">
+                <label for="prn">Enter your PRN Number</label>
+                <input type="text" id="prn" name="prn" placeholder="e.g. 21070123000" required>
+            </div>
+            <button type="submit">Start Examination</button>
+        </form>
+    </div>
+</body>
+
+</html>

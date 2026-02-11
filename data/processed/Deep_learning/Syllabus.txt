@@ -1,0 +1,96 @@
+Syllabus: Convolutional Neural Networks (CNN) 
+1. Introduction to CNN 
+• Definition of Convolutional Neural Networks 
+• Motivation for CNNs in image and spatial data processing 
+• Comparison of CNNs with traditional Artificial Neural Networks (ANNs) 
+• Biological inspiration from the human visual cortex 
+• Applications of CNNs in computer vision 
+2. Image Representation and Input Layer 
+• Digital image representation (Grayscale and RGB images) 
+• Image dimensions and channels 
+• Input layer structure in CNN 
+• Preprocessing of image data 
+3. Convolution Operation 
+• Concept of convolution 
+• Filters (kernels) and feature maps 
+• Local receptive fields 
+• Weight sharing mechanism 
+• Mathematical formulation of convolution 
+• Hyperparameters: 
+o Kernel size 
+o Stride 
+o Padding (valid and same) 
+• Output size calculation 
+4. Activation Functions in CNN 
+• Role of non-linearity in CNNs 
+• ReLU activation function 
+• Problems addressed by ReLU (vanishing gradient) 
+• Variants of ReLU: 
+o Leaky ReLU 
+o PReLU 
+o ELU 
+5. Pooling Layers 
+• Purpose of pooling 
+• Downsampling and dimensionality reduction 
+• Types of pooling: 
+o Max Pooling 
+o Average Pooling 
+o Global Average Pooling 
+• Effect of pooling on translation invariance 
+6. Feature Learning and Hierarchical Representation 
+• Shallow vs deep CNNs 
+• Hierarchical feature extraction 
+• Low-level, mid-level, and high-level features 
+• Stacking multiple convolution layers 
+7. Fully Connected Layers 
+• Flattening operation 
+• Role of dense layers in CNN 
+• Transition from feature extraction to classification 
+8. Output Layer and Prediction 
+• Output layer design 
+• Activation functions: 
+o Softmax for multi-class classification 
+o Sigmoid for binary classification 
+• Regression output using linear activation 
+9. Training of CNN 
+• Loss functions: 
+o Categorical Cross-Entropy 
+o Binary Cross-Entropy 
+o Mean Squared Error (MSE) 
+• Backpropagation in CNN 
+• Optimization algorithms: 
+o Stochastic Gradient Descent (SGD) 
+o Adam 
+o RMSProp 
+• Weight and bias updates 
+10. Advantages and Limitations of CNN 
+• Advantages: 
+o Automatic feature extraction 
+o Parameter efficiency 
+o Spatial invariance 
+• Limitations: 
+o Large data requirement 
+o High computational cost 
+o Limited rotation and scale invariance 
+o Interpretability issues 
+11. Applications of CNN 
+• Image classification 
+• Face recognition 
+• Object detection and localization 
+• Medical image analysis 
+• Autonomous driving 
+• Optical Character Recognition (OCR) 
+• Video analysis 
+12. Popular CNN Architectures 
+• LeNet-5 
+• AlexNet 
+• VGGNet 
+• GoogLeNet (Inception) 
+• ResNet 
+• MobileNet 
+• EfficientNet 
+13. Summary and Future Scope 
+• Role of CNNs in modern deep learning 
+• Integration of CNNs with other models 
+• Trends in CNN research and applications 
+ 

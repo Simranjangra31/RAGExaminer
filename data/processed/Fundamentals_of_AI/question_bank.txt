@@ -1,0 +1,302 @@
+50 MCQs: Fundamentals of Artificial Intelligence (AI)
+1. Artificial Intelligence is a branch of:
+a) Electrical Engineering
+b) Computer Science
+c) Mechanical Engineering
+d) Civil Engineering
+Answer: b
+2. The term Artificial Intelligence was coined by:
+a) Alan Turing
+b) John McCarthy
+c) Marvin Minsky
+d) Herbert Simon
+Answer: b
+3. According to John McCarthy, AI is:
+a) Study of computer hardware
+b) Science and engineering of making intelligent machines
+c) Study of human psychology
+d) Database management
+Answer: b
+4. Russell and Norvig define AI as the study of:
+a) Human intelligence
+b) Neural networks
+c) Intelligent agents
+d) Robotics
+Answer: c
+5. The main goal of AI is to:
+a) Store data
+b) Automate decision making
+c) Simulate human intelligence
+d) Replace humans
+Answer: c
+6. Which of the following is NOT a goal of AI?
+a) Learning
+b) Reasoning
+c) Problem solving
+d) Manual data entry
+Answer: d
+7. Narrow AI is also known as:
+a) Strong AI
+b) General AI
+c) Weak AI
+d) Super AI
+Answer: c
+8. General AI refers to:
+a) Task-specific intelligence
+b) Human-level intelligence
+c) Machine learning only
+d) Rule-based systems
+Answer: b
+9. Super AI is:
+a) Currently implemented
+b) Theoretical concept
+c) Narrow AI
+d) Weak AI
+Answer: b
+10. Which of the following is a core component of AI?
+a) Data
+b) Algorithms
+c) Models
+d) All of the above
+Answer: d
+11. Machine Learning is a:
+a) Hardware technology
+b) Programming language
+c) Subfield of AI
+d) Database system
+Answer: c
+12. Machine learning allows systems to:
+a) Follow hard-coded rules
+b) Learn from data
+c) Avoid computation
+d) Replace databases
+Answer: b
+13. Which is NOT a type of machine learning?
+a) Supervised learning
+b) Unsupervised learning
+c) Reinforcement learning
+d) Procedural learning
+Answer: d
+14. Supervised learning requires:
+a) No data
+b) Unlabeled data
+c) Labeled data
+d) Random data
+Answer: c
+15. Unsupervised learning works with:
+a) Labeled data
+b) Unlabeled data
+c) Reinforced data
+d) Pre-trained data
+Answer: b
+16. Reinforcement learning is based on:
+a) Classification
+b) Clustering
+c) Rewards and penalties
+d) Regression
+Answer: c
+17. Knowledge representation in AI deals with:
+a) Hardware design
+b) Data storage only
+c) Representing facts and rules
+d) Image processing
+Answer: c
+18. Reasoning in AI refers to:
+a) Storing information
+b) Drawing conclusions
+c) Capturing images
+d) Translating languages
+Answer: b
+19. Search in AI is used to:
+a) Sort data
+b) Find optimal solutions
+c) Store knowledge
+d) Visualize data
+Answer: b
+20. Which algorithm is used for problem solving in AI?
+a) Bubble sort
+b) Binary search
+c) State space search
+d) Hashing
+Answer: c
+21. Natural Language Processing deals with:
+a) Image understanding
+b) Human language
+c) Hardware communication
+d) Database queries
+Answer: b
+22. Computer Vision enables machines to:
+a) Hear sounds
+b) Understand images and videos
+c) Store data
+d) Process text only
+Answer: b
+23. Robotics in AI focuses on:
+a) Software only
+b) Intelligent physical agents
+c) Databases
+d) Operating systems
+Answer: b
+24. An AI agent:
+a) Only stores data
+b) Perceives and acts in an environment
+c) Compiles programs
+d) Manages memory
+Answer: b
+25. Sensors in AI agents are used to:
+a) Take actions
+b) Perceive the environment
+c) Store knowledge
+d) Execute code
+Answer: b
+26. Actuators are used by agents to:
+a) Sense environment
+b) Take actions
+c) Learn data
+d) Store rules
+Answer: b
+27. Simple reflex agents act based on:
+a) Goals
+b) Utilities
+c) Current percepts
+d) Past experiences
+Answer: c
+28. Goal-based agents choose actions based on:
+a) Random behavior
+b) Current state only
+c) Desired goals
+d) Sensors only
+Answer: c
+29. Utility-based agents select actions that:
+a) Maximize utility
+b) Minimize learning
+c) Ignore environment
+d) Use rules only
+Answer: a
+30. Learning agents can:
+a) Improve performance over time
+b) Act randomly
+c) Ignore feedback
+d) Stop learning
+Answer: a
+31. AI is different from ML because:
+a) AI is a subset of ML
+b) ML is a subset of AI
+c) Both are same
+d) ML excludes learning
+Answer: b
+32. Deep Learning is a subset of:
+a) AI only
+b) ML only
+c) AI and ML
+d) Robotics
+Answer: c
+33. Deep learning mainly uses:
+a) Decision trees
+b) Rule-based systems
+c) Neural networks
+d) Search algorithms
+Answer: c
+34. AI applications in healthcare include:
+a) Network security
+b) Medical diagnosis
+c) Web hosting
+d) Compiler design
+Answer: b
+35. AI is used in finance for:
+a) Fraud detection
+b) File management
+c) Text editing
+d) Image compression
+Answer: a
+36. Autonomous vehicles are an application of:
+a) Weak AI
+b) General AI
+c) Narrow AI
+d) Super AI
+Answer: c
+37. One advantage of AI is:
+a) High error rate
+b) Automation of tasks
+c) Emotional intelligence
+d) High fatigue
+Answer: b
+38. AI systems can work:
+a) Only during office hours
+b) 24/7 without fatigue
+c) Only with human help
+d) Offline only
+Answer: b
+39. A major limitation of AI is:
+a) High accuracy
+b) Data dependency
+c) Automation
+d) Speed
+Answer: b
+40. AI systems lack:
+a) Speed
+b) Storage
+c) Creativity and emotions
+d) Accuracy
+Answer: c
+41. Ethical AI focuses on:
+a) Faster computation
+b) Fairness and transparency
+c) Hardware upgrades
+d) Cloud storage
+Answer: b
+42. Bias in AI arises due to:
+a) Hardware issues
+b) Biased data
+c) Programming errors only
+d) Low memory
+Answer: b
+43. Explainable AI (XAI) aims to:
+a) Hide decisions
+b) Make AI decisions understandable
+c) Increase complexity
+d) Reduce accuracy
+Answer: b
+44. Edge AI refers to:
+a) AI in cloud only
+b) AI on edge devices
+c) Centralized AI
+d) Super AI
+Answer: b
+45. HumanAI collaboration means:
+a) Replacing humans
+b) AI working independently
+c) Humans and AI working together
+d) Disabling humans
+Answer: c
+46. Responsible AI ensures:
+a) Profit only
+b) Ethical and safe AI use
+c) Faster training
+d) Reduced transparency
+Answer: b
+47. Which is NOT an AI application?
+a) Chatbots
+b) Face recognition
+c) Word processing
+d) Recommendation systems
+Answer: c
+48. Search problems in AI involve:
+a) Databases only
+b) State space exploration
+c) File systems
+d) Memory allocation
+Answer: b
+49. Knowledge representation allows AI systems to:
+a) Only store data
+b) Understand and reason
+c) Execute programs
+d) Visualize images
+Answer: b
+50. The future of AI focuses on:
+a) Manual systems
+b) Explainability and responsibility
+c) Reduced automation
+d) Limited applications
+Answer: b
+
